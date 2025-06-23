@@ -1,10 +1,11 @@
-import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Enolight</h1>
-      <h2 className="text-red-500">Enolight</h2>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <Link href="/hero">
+        <div className="border rounded-sm px-3 py-1">Hero Page</div>
+      </Link>
     </div>
   );
 }
