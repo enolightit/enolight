@@ -6,8 +6,8 @@ import styles from './hero.module.css';
 export default function Hero() {
   return (
     <div className="mb-20">
-      <Title>Scale: 1.5 & Margin: 2px</Title>
-      <Images />
+      <Title>Scale: 1.2 & Margin: 2px</Title>
+      <Images cardStyle={`${styles.card}`} />
 
       <Title>Scale: 1.2 & Margin: 1.5px</Title>
       <Images cardStyle={`${styles.card} !m-[1.5px]`} />
